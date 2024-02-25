@@ -1,6 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Toma el 100% de la altura de la ventana */
+}
+
+/* Estilos para los bloques del juego */
 .block {
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
 }
 
 .black {
@@ -33,4 +41,7 @@
 
 .orange {
     background-color: orange;
+}
+.pablo{
+    background-color: red;
 }

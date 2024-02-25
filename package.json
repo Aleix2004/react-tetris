@@ -1,5 +1,5 @@
 {
-  "name": "react-tetris",
+  "name": "Sky-Enterteinment",
   "version": "1.0.0",
   "description": "Tetris game written in React",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "keywords": [
     "tetris"
   ],
-  "author": "vocafeuvre",
+  "author": "Aleix",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -27,6 +27,7 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
+    "mdb-react-ui-kit": "^7.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-hot-loader": "^4.8.2",

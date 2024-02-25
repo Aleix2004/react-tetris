@@ -1,0 +1,162 @@
+Estilos globales
+ 
+
+/* Estilos del contenedor principal */
+
+
+Estilos para el formulario
+form {
+    display: flex;
+    flex-direction: column;
+      gap: 20px;
+  }
+  
+  /* Estilos para los inputs del formulario */
+  input[type="text"] {
+  padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    position: relative ;
+  }
+  
+  /* Estilos para el botón de envío */
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3f51b5;
+  }
+  
+  /* Estilos para las etiquetas */
+  
+  
+  /* Estilos para los mensajes de inicio */
+  h1 {
+    color: #333;
+  }
+  
+  /* Espaciado entre los inputs y sus etiquetas */
+  .form-group {
+    display: flex;
+  
+    align-items: center;
+  
+  }
+  
+  /* Tamaño del input y label dentro del .form-group */
+  .form-group > * {
+    width: 50%;
+    
+  }
+  
+  /* Ajustes para cuando la pantalla es muy pequeña */
+  @media (max-width: 600px) {
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    form {
+      width: 100%;
+    }
+  }
+  
+  button[type="button"] {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: transparent;
+    color: #5c6bc0;
+    border: 1px solid #5c6bc0;
+    border-radius: 4px;
+    transition: all 0.3s;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #5c6bc0;
+    color: white;
+  }
+  
+  
+  .imagen{
+    width: 100%;
+  }
+  
+  .fotoplace{
+    width: 65%;
+    
+  }
+  
+  .container{
+    display: flex;
+    height: 100vh;
+  }
+  
+  .login-container{
+    display: flex;
+    width: 90%;
+    background-color: #404243;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .barra_iz{
+    width: 5%;
+    background-image: url(/src/assets/wall.png);
+    background-repeat: repeat;
+  }
+  
+  .barra_der{
+    width: 5%;
+    background-image: url(/src/assets/wall.png);
+    background-repeat: repeat;
+  }
+  
+  .login{
+    width: 55%;
+    background-color: #C6CFA1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .login-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    background-color: #C6CFA1;
+  }
+  
+  .login-text{
+    position: relative;
+    left: 135px;
+    top: -130px;
+  }
+  
+  .ultimo-boton{
+    margin: 20px;
+  }
+  
+  
+  
+  

@@ -4,6 +4,7 @@ const htmlWebpackPlugin = require('html-webpack-plugin')
 const htmlWebpackTemplate = require('html-webpack-template')
 
 module.exports = {
+
     mode: 'development',
     entry: {
         app: path.resolve(__dirname, 'src/index.js')
@@ -54,5 +55,5 @@ module.exports = {
         contentBase: './dist',
         port: 3001
     },
-    devtool: 'eval-source-map'
+    devtool: 'eval-source-map' 
 }

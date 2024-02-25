@@ -1,0 +1,30 @@
+.bloque_izquierdo{
+  height: 105%;
+  background-image: url(/src/assets/wall.png);
+  background-repeat: repeat;
+  background-color: red ;
+}
+
+.bloque_derecho{
+  width: 5%;
+  background-image: url(/src/assets/wall.png);
+  background-repeat: repeat;
+}
+
+.bloque_central{
+  display: flex;
+  width: 90%;
+  background-color: #404243;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.blqoue_centrado{
+  width: 55%;
+  background-color: #C6CFA1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
